@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Util.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UITapGestureRecognizer *gerture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapClick)];
+    [self.view addGestureRecognizer:gerture];
+    LOG(@"string");
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)tapClick
+{
+    LOG(@"999999");
 }
 
 - (void)didReceiveMemoryWarning {

@@ -14,6 +14,7 @@
 		0DF1118319F6AC6E00C9D9CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DF1118219F6AC6E00C9D9CA /* Images.xcassets */; };
 		0DF1118619F6AC6E00C9D9CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DF1118419F6AC6E00C9D9CA /* LaunchScreen.xib */; };
 		0DF1119219F6AC6F00C9D9CA /* LocalMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1119119F6AC6F00C9D9CA /* LocalMapTests.m */; };
+		0DF111AA19F6AE2900C9D9CA /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF111A919F6AE2900C9D9CA /* Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		0DF1118B19F6AC6F00C9D9CA /* LocalMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF1119019F6AC6F00C9D9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DF1119119F6AC6F00C9D9CA /* LocalMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalMapTests.m; sourceTree = "<group>"; };
+		0DF111A819F6AE2900C9D9CA /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Util.h; path = object/Util.h; sourceTree = "<group>"; };
+		0DF111A919F6AE2900C9D9CA /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Util.m; path = object/Util.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		0DF1116919F6AC6E00C9D9CA = {
 			isa = PBXGroup;
 			children = (
+				0DF111A719F6AE0600C9D9CA /* object */,
 				0DF1117419F6AC6E00C9D9CA /* LocalMap */,
 				0DF1118E19F6AC6F00C9D9CA /* LocalMapTests */,
 				0DF1117319F6AC6E00C9D9CA /* Products */,
@@ -117,6 +121,15 @@
 				0DF1119019F6AC6F00C9D9CA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DF111A719F6AE0600C9D9CA /* object */ = {
+			isa = PBXGroup;
+			children = (
+				0DF111A819F6AE2900C9D9CA /* Util.h */,
+				0DF111A919F6AE2900C9D9CA /* Util.m */,
+			);
+			name = object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				0DF1117E19F6AC6E00C9D9CA /* ViewController.m in Sources */,
 				0DF1117B19F6AC6E00C9D9CA /* AppDelegate.m in Sources */,
 				0DF1117819F6AC6E00C9D9CA /* main.m in Sources */,
+				0DF111AA19F6AE2900C9D9CA /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
